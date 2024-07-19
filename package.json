@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "mocha src/test/*.mjs --experimental-specifier-resolution=node --timeout 10000"
+    "test": "mocha src/test/*.js --experimental-specifier-resolution=node --timeout 10000"
   },
   "author": "Sebastian Fonseca",
   "license": "ISC",
